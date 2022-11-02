@@ -28,6 +28,12 @@
     border: black 2px dashed;
 }
 
+.bottone{
+    background-color: #f08080;
+    height: 30px;
+    padding: 5px;
+}
+
 
 /*BEGIN*/
 
@@ -62,7 +68,6 @@ header{
 .main-container{
     background-color: #00008b;
     height: 400px;
-    width: 1440px;
     justify-content: center;
     align-items: center;
     border-bottom: #add8e6 solid 1px;
@@ -87,7 +92,6 @@ header{
 .grey-container{
     background-color: #d3d3d3;
     height: 500px;
-    width: 1440px;
     justify-content: center;
     align-items: center;
 }
@@ -112,7 +116,6 @@ header{
 .big-container{
     background-color: #d3d3d3;
     height: 800px;
-    width: 1440px;
     justify-content: center;
     align-items: center;
 }
@@ -146,5 +149,21 @@ header{
     height: 400px;
     width: calc(100% / 4);
     background-color: #20b2aa;
+}
+
+/*FOOTER*/
+footer{
+    height: 100px;
+    background-color: #23272a;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer-container{
+    height: 80px;
+    width: 800px;
+    background-color: #20b2aa;
+    justify-content: space-between;
+    align-items: center;
 }
 
