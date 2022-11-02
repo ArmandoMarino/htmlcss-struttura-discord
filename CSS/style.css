@@ -134,7 +134,6 @@ header{
 .medium-container{
     background-color: #23272a;
     height: 500px;
-    width: 1440px;
     justify-content: center;
     align-items: center;
 }
@@ -161,6 +160,7 @@ footer{
     background-color: #23272a;
     justify-content: center;
     align-items: flex-end;
+    margin-top: 2px;
 }
 
 .footer-container{
