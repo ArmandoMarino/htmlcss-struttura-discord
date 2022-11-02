@@ -6,14 +6,11 @@
 }
 
 /*UTILITY*/
-.container{
-    width: 1200px;
-    margin: 0 auto;
-}
 
 .flex{
     display: flex;
 }
+
 
 /*BEGIN*/
 
@@ -30,20 +27,42 @@ header{
 }
 
 .logo-block{
-    width: 25%;
+    min-width: 25%;
     background-color: #daa520;
     border: black 1px dashed;
+    align-items: center;
 }
 
 .link-block{
     min-width: 50%;
     background-color: #daa520;
-    flex-direction: row;
     border: black 1px dashed;
+    justify-content: space-around;
+    align-items: center;
 }
-
+    
 .login-block{
-    width: 25%;
+    min-width: 25%;
     background-color: #daa520;
     border: black 1px dashed;
+    align-items: center;
+    justify-content: end;
+}
+
+/*MAIN*/
+
+.main-container{
+    background-color: #00008b;
+    min-height: 400px;
+    min-width: 1440px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: #add8e6 solid 1px;
+}
+
+.main-block{
+   background-color: #ee82ee;
+   height: 300px;
+   min-width: 700px;
+   border: black dashed 1px;
 }
