@@ -122,3 +122,29 @@ header{
     width: 800px;
     background-color: #228b22;
 }
+
+/*MEDIUM-CONTAINER*/
+.medium-container{
+    background-color: #23272a;
+    height: 500px;
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-container{
+    height: 400px;
+    width: 800px;
+}
+
+.big-column{
+    width: calc(100% / 3);
+    background-color: #f08080 ;
+}
+
+.small-column{
+    height: 400px;
+    width: calc(100% / 4);
+    background-color: #20b2aa;
+}
+
