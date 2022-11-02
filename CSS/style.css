@@ -35,7 +35,7 @@
 }
 
 
-/*BEGIN*/
+/*HEADER*/
 
 header{
     height: 100px;
@@ -54,9 +54,14 @@ header{
 }
 
 .link-block{
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
+
+.link-nav{
+    padding: 10px;
+}
+
     
 .login-block{
     align-items: center;
