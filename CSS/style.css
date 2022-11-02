@@ -5,7 +5,45 @@
     box-sizing: border-box;
 }
 
+/*UTILITY*/
 .container{
     width: 1200px;
     margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+/*BEGIN*/
+
+header{
+    height: 100px;
+    background-color: #add8e6;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-block{
+    width: 800px;
+    height: 50px;
+}
+
+.logo-block{
+    width: 25%;
+    background-color: #daa520;
+    border: black 1px dashed;
+}
+
+.link-block{
+    min-width: 50%;
+    background-color: #daa520;
+    flex-direction: row;
+    border: black 1px dashed;
+}
+
+.login-block{
+    width: 25%;
+    background-color: #daa520;
+    border: black 1px dashed;
 }
