@@ -152,7 +152,6 @@ footer {
   padding-bottom: 30px;
   margin-bottom: 30px;
   border-bottom: 1px solid purple;
-  display: flex;
 }
 
 .footer-top .footer-left {
@@ -167,7 +166,6 @@ footer {
 
 .footer-nav {
   height: 100%;
-  display: flex;
 }
 
 .footer-nav > div {
@@ -175,7 +173,6 @@ footer {
 }
 
 .footer-bottom {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
