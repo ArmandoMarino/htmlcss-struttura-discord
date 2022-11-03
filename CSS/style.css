@@ -6,6 +6,11 @@
 }
 
 /*UTILITY*/
+.container {
+    width: 800px;
+    margin: 0 auto;
+  }
+
 .flex{
     display: flex;
 }
@@ -86,14 +91,14 @@ header{
 
 
 /*INIZIO CARD*/
-.white-container{
+.white-section{
     background-color: #fff;
     height: 500px;
     justify-content: center;
     align-items: center;
 }
 
-.grey-container{
+.grey-section{
     background-color: #d3d3d3;
     height: 500px;
     justify-content: center;
@@ -131,43 +136,53 @@ header{
 }
 
 /*MEDIUM-CONTAINER*/
-.medium-container{
-    background-color: #23272a;
-    height: 500px;
-    justify-content: center;
-    align-items: center;
+.nav-footer{
+
 }
 
-.column-container{
-    height: 400px;
-    width: 800px;
+/* FOOTER */
+
+footer {
+  padding: 50px;
+  background-color: #23272a;
 }
 
-.big-column{
-    width: calc(100% / 3);
-    background-color: #f08080 ;
+.footer-top {
+  height: 600px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid purple;
+  display: flex;
 }
 
-.small-column{
-    height: 400px;
-    width: calc(100% / 4);
-    background-color: #20b2aa;
+.footer-top .footer-left {
+  flex-basis: 30%;
+  background-color: pink;
 }
 
-/*FOOTER*/
-footer{
-    height: 100px;
-    background-color: #23272a;
-    justify-content: center;
-    align-items: flex-end;
-    margin-top: 2px;
+.footer-top .footer-right {
+  flex-basis: 70%;
+  background-color: #20b2aa;
 }
 
-.footer-container{
-    height: 80px;
-    width: 800px;
-    background-color: #20b2aa;
-    justify-content: space-between;
-    align-items: center;
+.footer-nav {
+  height: 100%;
+  display: flex;
 }
 
+.footer-nav > div {
+  flex-basis: 25%;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: aquamarine;
+}
+
+.footer-bottom > * {
+  padding: 5px 10px;
+  background-color: yellow;
+}
